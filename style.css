@@ -3,12 +3,11 @@
   padding: 0;
 }
 
-.html{
+html{
   height: 100%;
 }
-.body {
-  min-height: 100%;
-  border: 5px dashed red;
+body {
+  height: 100%;
 }
 
 
