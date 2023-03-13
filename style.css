@@ -1,0 +1,21 @@
+.low-opacity-background {
+
+  margin: 0;
+  font-family: system-ui;
+  
+  position: relative;
+  isolation: isolate;
+}
+
+.low-opacity-background::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background:rgba(173, 216, 230,0.75);
+  opacity: 0.5;
+
+  background-image: url(matzo-wine-kipa-man.png);
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
